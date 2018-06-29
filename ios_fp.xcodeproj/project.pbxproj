@@ -10,10 +10,26 @@
 		C310A56420E5555700162984 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C310A56320E5555700162984 /* AppDelegate.swift */; };
 		C310A56620E5555700162984 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C310A56520E5555700162984 /* ViewController.swift */; };
 		C310A56920E5555700162984 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C310A56720E5555700162984 /* Main.storyboard */; };
-		C310A56B20E5555700162984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C310A56A20E5555700162984 /* Assets.xcassets */; };
 		C310A56E20E5555700162984 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C310A56C20E5555700162984 /* LaunchScreen.storyboard */; };
 		C310A57920E5555700162984 /* ios_fpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C310A57820E5555700162984 /* ios_fpTests.swift */; };
 		C310A58420E5555700162984 /* ios_fpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C310A58320E5555700162984 /* ios_fpUITests.swift */; };
+		C310A59720E555EC00162984 /* AccountTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C310A59120E555EB00162984 /* AccountTableViewController.swift */; };
+		C310A59820E555EC00162984 /* AccountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C310A59220E555EB00162984 /* AccountTableViewCell.swift */; };
+		C310A59920E555EC00162984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C310A59320E555EB00162984 /* Assets.xcassets */; };
+		C310A59A20E555EC00162984 /* AddAccountTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C310A59420E555EB00162984 /* AddAccountTableViewController.swift */; };
+		C310A59C20E555EC00162984 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C310A59620E555EC00162984 /* Base.lproj */; };
+		C310A59E20E558E200162984 /* DiaryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C310A59D20E558E200162984 /* DiaryDetailViewController.swift */; };
+		C310A5A020E558F200162984 /* DiaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C310A59F20E558F200162984 /* DiaryTableViewCell.swift */; };
+		C310A5A220E558FF00162984 /* DiaryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C310A5A120E558FF00162984 /* DiaryTableViewController.swift */; };
+		C310A5A620E5593400162984 /* AccountDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C310A5A520E5593400162984 /* AccountDetailViewController.swift */; };
+		C310A5A820E567FE00162984 /* UIImage＋Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = C310A5A720E567FE00162984 /* UIImage＋Gif.swift */; };
+		C310A5AE20E56A5D00162984 /* start.swift in Sources */ = {isa = PBXBuildFile; fileRef = C310A5AD20E56A5D00162984 /* start.swift */; };
+		C310A5B020E56B5700162984 /* 吃土gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = C310A5AF20E56B5600162984 /* 吃土gif.gif */; };
+		C310A5B820E5E72000162984 /* AddDiaryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C310A5B720E5E72000162984 /* AddDiaryTableViewController.swift */; };
+		C310A5BC20E605FE00162984 /* web.swift in Sources */ = {isa = PBXBuildFile; fileRef = C310A5BB20E605FE00162984 /* web.swift */; };
+		C310A5BE20E6069D00162984 /* WebUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C310A5BD20E6069D00162984 /* WebUse.swift */; };
+		C310A5C020E6075D00162984 /* web2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C310A5BF20E6075D00162984 /* web2.swift */; };
+		C310A5C220E6076C00162984 /* web3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C310A5C120E6076C00162984 /* web3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +54,6 @@
 		C310A56320E5555700162984 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C310A56520E5555700162984 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C310A56820E5555700162984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C310A56A20E5555700162984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C310A56D20E5555700162984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C310A56F20E5555700162984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C310A57420E5555700162984 /* ios_fpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_fpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +62,23 @@
 		C310A57F20E5555700162984 /* ios_fpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_fpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C310A58320E5555700162984 /* ios_fpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_fpUITests.swift; sourceTree = "<group>"; };
 		C310A58520E5555700162984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C310A59120E555EB00162984 /* AccountTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountTableViewController.swift; sourceTree = "<group>"; };
+		C310A59220E555EB00162984 /* AccountTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountTableViewCell.swift; sourceTree = "<group>"; };
+		C310A59320E555EB00162984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C310A59420E555EB00162984 /* AddAccountTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAccountTableViewController.swift; sourceTree = "<group>"; };
+		C310A59620E555EC00162984 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		C310A59D20E558E200162984 /* DiaryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryDetailViewController.swift; sourceTree = "<group>"; };
+		C310A59F20E558F200162984 /* DiaryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryTableViewCell.swift; sourceTree = "<group>"; };
+		C310A5A120E558FF00162984 /* DiaryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryTableViewController.swift; sourceTree = "<group>"; };
+		C310A5A520E5593400162984 /* AccountDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailViewController.swift; sourceTree = "<group>"; };
+		C310A5A720E567FE00162984 /* UIImage＋Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage＋Gif.swift"; sourceTree = "<group>"; };
+		C310A5AD20E56A5D00162984 /* start.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = start.swift; sourceTree = "<group>"; };
+		C310A5AF20E56B5600162984 /* 吃土gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "吃土gif.gif"; sourceTree = "<group>"; };
+		C310A5B720E5E72000162984 /* AddDiaryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDiaryTableViewController.swift; sourceTree = "<group>"; };
+		C310A5BB20E605FE00162984 /* web.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = web.swift; sourceTree = "<group>"; };
+		C310A5BD20E6069D00162984 /* WebUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebUse.swift; sourceTree = "<group>"; };
+		C310A5BF20E6075D00162984 /* web2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = web2.swift; sourceTree = "<group>"; };
+		C310A5C120E6076C00162984 /* web3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = web3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +129,28 @@
 		C310A56220E5555700162984 /* ios_fp */ = {
 			isa = PBXGroup;
 			children = (
-				C310A56320E5555700162984 /* AppDelegate.swift */,
-				C310A56520E5555700162984 /* ViewController.swift */,
+				C310A5AF20E56B5600162984 /* 吃土gif.gif */,
+				C310A5AD20E56A5D00162984 /* start.swift */,
 				C310A56720E5555700162984 /* Main.storyboard */,
-				C310A56A20E5555700162984 /* Assets.xcassets */,
 				C310A56C20E5555700162984 /* LaunchScreen.storyboard */,
+				C310A56520E5555700162984 /* ViewController.swift */,
+				C310A56320E5555700162984 /* AppDelegate.swift */,
 				C310A56F20E5555700162984 /* Info.plist */,
+				C310A59320E555EB00162984 /* Assets.xcassets */,
+				C310A59620E555EC00162984 /* Base.lproj */,
+				C310A59220E555EB00162984 /* AccountTableViewCell.swift */,
+				C310A59120E555EB00162984 /* AccountTableViewController.swift */,
+				C310A5A520E5593400162984 /* AccountDetailViewController.swift */,
+				C310A59420E555EB00162984 /* AddAccountTableViewController.swift */,
+				C310A59F20E558F200162984 /* DiaryTableViewCell.swift */,
+				C310A5A120E558FF00162984 /* DiaryTableViewController.swift */,
+				C310A5B720E5E72000162984 /* AddDiaryTableViewController.swift */,
+				C310A59D20E558E200162984 /* DiaryDetailViewController.swift */,
+				C310A5A720E567FE00162984 /* UIImage＋Gif.swift */,
+				C310A5BB20E605FE00162984 /* web.swift */,
+				C310A5BF20E6075D00162984 /* web2.swift */,
+				C310A5C120E6076C00162984 /* web3.swift */,
+				C310A5BD20E6069D00162984 /* WebUse.swift */,
 			);
 			path = ios_fp;
 			sourceTree = "<group>";
@@ -230,8 +278,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C310A56E20E5555700162984 /* LaunchScreen.storyboard in Resources */,
-				C310A56B20E5555700162984 /* Assets.xcassets in Resources */,
+				C310A59C20E555EC00162984 /* Base.lproj in Resources */,
+				C310A59920E555EC00162984 /* Assets.xcassets in Resources */,
 				C310A56920E5555700162984 /* Main.storyboard in Resources */,
+				C310A5B020E56B5700162984 /* 吃土gif.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +307,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				C310A56620E5555700162984 /* ViewController.swift in Sources */,
+				C310A5A620E5593400162984 /* AccountDetailViewController.swift in Sources */,
+				C310A5BE20E6069D00162984 /* WebUse.swift in Sources */,
+				C310A59E20E558E200162984 /* DiaryDetailViewController.swift in Sources */,
+				C310A59A20E555EC00162984 /* AddAccountTableViewController.swift in Sources */,
+				C310A59820E555EC00162984 /* AccountTableViewCell.swift in Sources */,
+				C310A5C220E6076C00162984 /* web3.swift in Sources */,
 				C310A56420E5555700162984 /* AppDelegate.swift in Sources */,
+				C310A59720E555EC00162984 /* AccountTableViewController.swift in Sources */,
+				C310A5AE20E56A5D00162984 /* start.swift in Sources */,
+				C310A5A820E567FE00162984 /* UIImage＋Gif.swift in Sources */,
+				C310A5B820E5E72000162984 /* AddDiaryTableViewController.swift in Sources */,
+				C310A5A220E558FF00162984 /* DiaryTableViewController.swift in Sources */,
+				C310A5BC20E605FE00162984 /* web.swift in Sources */,
+				C310A5C020E6075D00162984 /* web2.swift in Sources */,
+				C310A5A020E558F200162984 /* DiaryTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
